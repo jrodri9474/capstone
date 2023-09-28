@@ -6,12 +6,11 @@ import "./navbar.css";
 
 export const Navbar = () => {
   return (
-    <div className="navbar">N 
+    <div className="navbar">N
         <div className="links">
-            <Link to="/"> Shop </Link>
-            <Link to="/cart"> 
-             
-            </Link>
+            <Link to="/cart">Basket</Link>
+            <Link to="/Login">Login</Link>
+            <Link to="/all-products">Products</Link>
         </div> 
     </div>
   )

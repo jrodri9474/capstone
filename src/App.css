@@ -1,1 +1,56 @@
-
+.checkout-form-container {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .checkout-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .checkout-form-container form {
+    display: grid; /* Use grid layout for the form */
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 16px; /* Spacing between form elements */
+  }
+  
+  .checkout-form-container label {
+    font-size: 16px;
+  }
+  
+  .checkout-form-container input[type="text"],
+  .checkout-form-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+    width: 100%; /* Make form inputs expand to fill the column */
+  }
+  
+  .checkout-form-container input[type="text"]:focus,
+  .checkout-form-container textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .checkout-form-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .checkout-form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
